@@ -251,3 +251,9 @@ Reference
 [https://joshua1988.github.io/vue-camp/testing/jest-testing.html#jest-api](https://joshua1988.github.io/vue-camp/testing/jest-testing.html#jest-api)
 
 [https://www.rithmschool.com/courses/intermediate-node-express/api-tests-with-jest](https://www.rithmschool.com/courses/intermediate-node-express/api-tests-with-jest)
+
+
+v0.2
+it<->make 호환 테스트
+test.js -> app.test.js dir name 변경
+jest.config.js 추가 = 파일 junit report export
