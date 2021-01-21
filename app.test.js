@@ -3,6 +3,21 @@ const request = require('supertest');
 const { TestScheduler } = require('jest');
 
 
+const can = {
+    name: 'pamplemousse',
+    ounces: 12,
+};
+
+describe('the can', () => {
+    test('has 12 ounces', () => {
+        expect(can.ounces).toBe(12);
+    });
+
+    test('has a sophisticated name', () => {
+        expect(can.name).toBe('pamplemousse');
+    });
+});
+
 
 describe('Get /', () => {
     it('hello test', (done) => {
@@ -88,7 +103,7 @@ describe('Delete test', () => {
 
 
 
-/** 
+/**
  * test(name, fn, timeout)
  * Also under the alias: it(name, fn, timeout)
  * https://jestjs.io/docs/en/api#testname-fn-timeout
